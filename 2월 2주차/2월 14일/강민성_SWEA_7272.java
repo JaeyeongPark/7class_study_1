@@ -18,7 +18,7 @@ public class S7272 {
 		HashMap<Character, Integer> alphabet = new HashMap<>();
 		
 		// 알파벳의 구멍에 따라 Map 자료구조에 분류
-		for(int i = 64; i <= 90; i++) {
+		for(int i = 65; i <= 90; i++) {
 			switch((char)i) {
 			case 'A':
 			case 'D':
